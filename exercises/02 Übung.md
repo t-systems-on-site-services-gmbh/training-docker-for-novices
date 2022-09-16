@@ -24,3 +24,8 @@ docker run -dp 3000:3000 todoapp
 Öffne einen Browser und lade die todoapp. Erzeuge einige Todo-Items.
 
 Starte den Container neu und aktualisiere die todoapp im Browser. Was ist passiert?
+
+# Bonusaufgabe
+
+* Ändere etwas an der Anwendung. Tausche z.B. einfach einen Text aus.
+* Aktualisiere anschließend das Image und starte den Container.
