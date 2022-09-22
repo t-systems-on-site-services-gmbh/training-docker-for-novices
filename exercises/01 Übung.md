@@ -22,7 +22,7 @@ docker image ls
 die verfügbaren Images anzeigen. Analog dazu listet
 
 ```
-docker container ls
+docker container ls --all
 ```
 alle Container auf.
 
