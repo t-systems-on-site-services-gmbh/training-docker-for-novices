@@ -16,4 +16,10 @@ services:
         volumes:
             - ./:/app
         environment:
+            - MYSQL_HOST=mysql
+            ...
+    mysql:
+        image: mysql:5.7
+        volumes:
+            ...
 ```
