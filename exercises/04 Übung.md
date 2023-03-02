@@ -9,7 +9,7 @@ version: "3.7"
 services:
     todoapp:
         image: node:12-alpine
-        command: sh -c "yarn install && yarn run dev"
+        command: sh -c "yarn install && node src/index.js"
         ports:
             - 3000:3000
         working_dir: /app
