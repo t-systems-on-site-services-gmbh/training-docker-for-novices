@@ -7,7 +7,7 @@ Zur Hilfestellung hier ein Fragment:
 version: "3.7"
 
 services:
-    app:
+    todoapp:
         image: node:12-alpine
         command: sh -c "yarn install && yarn run dev"
         ports:
